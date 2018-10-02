@@ -16,10 +16,19 @@ li
 }
 .space
 {
-	padding-left: 27px;
+	padding-left: 15px;
     margin: 0;
     text-align: right;
     
+}
+
+.space_pub{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+	margin-left: -40px;
 }
 
 .toplink {
@@ -40,10 +49,12 @@ html, body
 	height: 100%;
 	font-family: Arial;
 	margin: 0px;
+	font-size: 13px;
 }
 
 header{
 	text-align: right;
+	margin: 15px;
 }
 
 .last
@@ -61,6 +72,8 @@ header{
     background-color: #4285f4;
     text-decoration: none;
     color: white;
+    margin-left: 20px;
+    border-radius: 2px;
 }
 
 .a
@@ -75,11 +88,14 @@ a {
 }
 
 input{
-	height: 40px;
+	height: 25px;
 	width: 632px;
 	background-color: white;
 	border: 1px solid #ABB3B2;
 	box-shadow: 0px 1px 1px #ABB3B2;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 2px;
 
 }
 
@@ -110,9 +126,10 @@ button:hover{
 footer div {
 	padding-left: 27px;
 	padding-right: 27px;
-	background-color: #e4e4e4;
+	background-color: #f2f2f2;
 	height: 40px;
 	border-top: 1px solid #ABB3B2;
+	padding-bottom: 10px;
 
 }
 footer 
@@ -122,5 +139,9 @@ footer
 	
 }
 .space:hover {
+	text-decoration:underline;
+}
+
+.space_pub:hover {
 	text-decoration:underline;
 }
