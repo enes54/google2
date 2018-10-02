@@ -1,6 +1,30 @@
+html, body
+{
+	display : flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	font-family: Arial;
+	margin: 0px;
+	font-size: 13px;
+}
+
+header{
+	text-align: right;
+	margin: 15px;
+}
+
 li 
 {
 	display: inline;
+}
+
+.space
+{
+	padding-left: 15px;
+    margin: 0;
+    text-align: right;
+    
 }
 
 .centre
@@ -13,13 +37,6 @@ li
 .button
 {
 	text-align: center;
-}
-.space
-{
-	padding-left: 15px;
-    margin: 0;
-    text-align: right;
-    
 }
 
 .space_pub{
@@ -41,21 +58,6 @@ nav{
 	text-decoration: underline;
 }
 
-html, body
-{
-	display : flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 100%;
-	font-family: Arial;
-	margin: 0px;
-	font-size: 13px;
-}
-
-header{
-	text-align: right;
-	margin: 15px;
-}
 
 .last
 {
@@ -144,4 +146,8 @@ footer
 
 .space_pub:hover {
 	text-decoration:underline;
+}
+
+.icon{
+	margin-bottom: -15px;
 }
